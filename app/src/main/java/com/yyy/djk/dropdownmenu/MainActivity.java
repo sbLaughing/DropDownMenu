@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //init context view
-        TextView contentView = new TextView(this);
+        final TextView contentView = new TextView(this);
         contentView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         contentView.setText("内容显示区域");
         contentView.setGravity(Gravity.CENTER);
@@ -130,7 +130,16 @@ public class MainActivity extends AppCompatActivity {
 
         //init dropdownview
         mDropDownMenu.setDropDownMenu(Arrays.asList(headers), popupViews, contentView);
+
+        findViewById(R.id.tv).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mDropDownMenu.setDropDownMenu(Arrays.asList(headers), popupViews, contentView);
+            }
+        });
     }
+
+
 
     @Override
     public void onBackPressed() {

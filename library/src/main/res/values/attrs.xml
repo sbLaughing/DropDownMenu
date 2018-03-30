@@ -3,6 +3,7 @@
     <declare-styleable name="DropDownMenu">
 
         <attr name="ddunderlineColor" format="color"/>
+        <attr name="ddunderlineHeight" format="dimension"/>
         <attr name="dddividerColor" format="color"/>
         <attr name="ddtextSelectedColor" format="color"/>
         <attr name="ddtextUnselectedColor" format="color"/>
@@ -12,5 +13,8 @@
         <attr name="ddmenuSelectedIcon" format="reference"/>
         <attr name="ddmenuUnselectedIcon" format="reference"/>
         <attr name="ddmenuMenuHeightPercent" format="float"/>
+        <attr name="ddmenuDrawablePadding" format="dimension"/>
+        <attr name="ddDividerMarginVertial" format="dimension"/>
+        <attr name="ddDividerWidth" format="dimension"/>
     </declare-styleable>
 </resources>
