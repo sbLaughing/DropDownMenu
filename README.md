@@ -41,7 +41,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.github.dongjunkun:DropDownMenu:1.0.4'
+    compile 'com.github.sbLaughing:DropDownMenu:1.1'
 }
 ```
 
