@@ -1,5 +1,16 @@
 [![](https://jitpack.io/v/dongjunkun/DropDownMenu.svg)](https://jitpack.io/#dongjunkun/DropDownMenu)
 
+##最新更新
+
+78d25a48 by Alien  
+添加分割线上下间距、宽度属性 添加下划线宽度属性 
+把内容布局跟Menu解耦，现在可在xml中布局content 
+添加清空menu功能  
+Add the spacing and width attributes of the dividing line. 
+Add the underline width attribute. 
+The content layout is decoupled from the Menu, and the content can now be laid out in XML. 
+Add the clear menu function.
+
 ## 简介
 一个实用的多条件筛选菜单，在很多App上都能看到这个效果，如美团，爱奇艺电影票等
 
